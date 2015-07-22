@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1 This is A Form Page!
+
+	h2 Please share your email with us.
+	form(method="POST" action="/formsubmit")
+		h4 Email:
+		input(name="email")
+		input(type="submit")
+
